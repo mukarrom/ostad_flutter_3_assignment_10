@@ -27,7 +27,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.sizeOf(context);
     return Scaffold(
       appBar: AppBar(
         title: const Text('Profile'),
